@@ -1,66 +1,191 @@
-Prueba de automatización
-✅ Prerrequisitos
-Asegúrate de tener las siguientes herramientas y versiones instaladas en tu máquina local con Windows 10:
+# Prueba Sofka – API Demoblaze  
+Automatización de pruebas utilizando Karate DSL para los servicios Signup y Login de la API de Demoblaze.
 
-IDE IntelliJ IDEA versión 2023.1 o superior
-Apache Maven versión 3.9.8 (debe estar configurado en la variable de entorno PATH)
-JDK versión 11.0.20 (debe estar configurado en la variable de entorno JAVA_HOME)
+---
 
+## 1. Descripción del ejercicio
 
-📦 Comandos de instalación
-Para configurar tu entorno de desarrollo, sigue estos pasos:
+El sitio web https://www.demoblaze.com ofrece funcionalidades de registro y login.  
+El objetivo de este ejercicio es automatizar pruebas REST para los endpoints:
 
+- Signup: https://api.demoblaze.com/signup  
+- Login: https://api.demoblaze.com/login  
 
-Clonar el repositorio:
-Shellgit clone https://github.com/MaribelDS/ApiKarateDemoglazeMostrar más líneas
+Los casos de prueba implementados son:
 
+1. Crear un nuevo usuario
+2. Intentar crear un usuario ya existente
+3. Usuario y password correctos en login
+4. Usuario y password incorrectos en login
 
-Compilar el proyecto:
+El repositorio contiene scripts, archivos, código y reportes necesarios para reproducir completamente el ejercicio.
 
-Ejecuta el siguiente comando para descargar todas las dependencias del pom.xml:
-Shellmvn install -DskipTestsMostrar más líneas
+---
 
-O desde IntelliJ IDEA, ve al panel derecho → MAVEN → clic en Reload all maven projects
+## 2. Requisitos previos
 
+Antes de ejecutar el proyecto debes contar con:
 
+✔ Java 8 o superior  
+✔ Maven 3.6 o superior  
+✔ Karate DSL (se descarga automáticamente vía pom.xml)
 
+Verificar versiones:
 
-🧪 Instrucciones para ejecutar los tests
-Desde IntelliJ IDEA
+java -version  
+mvn -version
 
-Abre el proyecto en IntelliJ IDEA.
-Configura el entorno de ejecución para ejecutar los tests de Karate.
-Dirígete al archivo:
-src/test/resources/demoblaze.feature
+---
 
+## 3. Estructura del proyecto
 
-Ejecuta el archivo directamente desde el IDE.
+El repositorio contiene la siguiente estructura:
 
-Desde Maven
-Ejecuta el siguiente comando en la terminal dentro del directorio raíz del proyecto:
-Shellmvn testMostrar más líneas
-Esto iniciará la ejecución de todos los tests definidos en el proyecto.
+.
+├── src
+│   └── test
+│       └── java
+│           └── examples
+│               └── demoblaze.feature
+├── pom.xml
+├── readme.txt
+├── conclusiones.txt
+└── target
+    └── karate-reports (se genera automáticamente)
 
-📊 Reporte
-Al ejecutar los tests, se genera un reporte con evidencias por cada paso del escenario Gherkin. Este se encuentra en:
-target/karate-reports/karate-summary.html
+El archivo principal de pruebas es:  
+src/test/java/examples/demoblaze.feature
 
-Al finalizar la ejecución, se muestra en consola el path del reporte. Puedes hacer Ctrl + Click sobre ese path para abrirlo directamente en tu navegador.
+---
 
-📁 Estructura del proyecto
-Las evidencias generadas se almacenan en la carpeta evidencias/, de acuerdo con la siguiente estructura del proyecto:
-pom.xml
-README.md
-conclusiones_demoblaze_API.txt
-.idea/
-target/
-evidencias/
-src/
+## 4. Instrucciones de ejecución (PASO A PASO)
 
+1. Clonar el repositorio público:
+   git clone https://github.com/keliza94/Sofka_ApiKarateDemoglaze.git
 
-⚠️ Observaciones
+2. Entrar en la carpeta del proyecto:
+   cd Sofka_ApiKarateDemoglaze
 
-Al realizar el signup de la API en Karate, se refleja un mensaje de error distinto al esperado.
-Sin embargo, al realizar el mismo proceso desde la web de Demoblaze, el mensaje es el correcto.
+3. Ejecutar todas las pruebas con Maven:
+   mvn test
 
-"# Sofka_ApiKarateDemoglaze" 
+4. Ver reportes de Karate:
+   target/karate-reports/karate-summary.html
+
+Desde el reporte podrás visualizar:
+- Casos ejecutados
+- Entradas enviadas al API
+- Respuestas recibidas
+- Mensajes de error
+- Validaciones exitosas o fallidas
+
+---
+
+## 5. Casos de prueba implementados
+
+### Caso 1 – Crear nuevo usuario  
+Realiza un POST a /signup con credenciales nuevas.
+
+Validación:
+- status 200
+
+### Caso 2 – Usuario ya existente  
+Realiza un POST a /signup con un usuario previamente registrado.
+
+Validación:
+- status 200
+- Mensaje: "This user already exist."
+
+### Caso 3 – Login correcto  
+Realiza un POST a /login con usuario y password válidos.
+
+Validación:
+- status 200
+
+### Caso 4 – Login incorrecto  
+Realiza un POST a /login con credenciales erróneas.
+
+Validación:
+- status 200
+- Mensaje: "Wrong password."
+
+---
+
+## 6. Código completo del archivo Feature
+
+Feature: Prueba Sofka API Demoblaze
+
+  Background:
+    * url 'https://api.demoblaze.com'
+
+  @id:CasodePrueba1
+  Scenario Outline: Crear nuevo Usuario
+    Given path '/signup'
+    And request { username: '<username>', password: '<password>' }
+    When method post
+    Then status 200
+
+    Examples:
+      | { username: 'newUser1', password: 'newUser1' } |
+
+  @id:CasodePrueba2
+  Scenario Outline: Creación de usuario existente
+    Given path '/signup'
+    And request { username: '<username>', password: '<password>' }
+    When method post
+    Then status 200
+    And match response contains { errorMessage: 'This user already exist.' }
+
+    Examples:
+      | { username: 'nuevoUsuario1', password: 'password1234' } |
+
+  @id:CasodePrueba3
+  Scenario Outline: Usuario y Contraseña Correctos
+    Given path '/login'
+    And request { username: '<username>', password: '<password>' }
+    When method post
+    Then status 200
+
+    Examples:
+      | { username: 'nuevoUsuario1', password: 'password123' } |
+
+  @id:CasodePrueba4
+  Scenario Outline: Usuario y contraseña incorrectos 
+    Given path '/login'
+    And request { username: '<username>', password: '<password>' }
+    When method post
+    Then status 200
+    And match response contains { errorMessage: 'Wrong password.' }
+
+    Examples:
+      | { username: 'Elizabeth', password: '1725531956' } |
+
+---
+
+## 7. Cómo reproducir completamente el proyecto
+
+1. Clonar repositorio  
+2. Ejecutar mvn test  
+3. Abrir reporte HTML  
+4. Revisar request/response de cada caso  
+5. Validar resultados y mensajes devueltos por la API  
+
+---
+
+## 8. Autor
+
+Keliza Vargas  
+Automatización de Pruebas – Karate DSL  
+GitHub: https://github.com/keliza94
+
+---
+
+## 9. Estado del proyecto
+
+✔ Repositorio público  
+✔ Scripts y archivos incluidos  
+✔ Pruebas reproducibles  
+✔ Reportes generados con Karate  
+✔ README completo  
+✔ Casos de prueba implementados  
+
