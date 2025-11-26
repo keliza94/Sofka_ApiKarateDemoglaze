@@ -3,6 +3,8 @@ CONCLUSIONES DEL EJERCICIO – PRUEBAS API DEMOBLAZE
 Durante el desarrollo de las pruebas de los servicios de registro (signup) y autenticación (login) de la API de Demoblaze se validaron distintos escenarios con el fin de verificar el comportamiento esperado ante entradas válidas e inválidas. Los hallazgos y conclusiones son los siguientes:
 
 1. El servicio de registro permite la creación de usuarios nuevos siempre que el nombre de usuario no exista previamente en el sistema. Las pruebas confirman que la respuesta del servidor es un estado HTTP 200 acompañado del mensaje correspondiente.
+Sin embargo al probarlo en postman es importante ver que aunque el código devuelto es 200 si se devuelve un mensaje de que el usuario está repetido al ejecutar las pruebas varias veces.
+Esto solo funciona correctamente si se ejecuta la primera vez o en cada ejecución se cambiara el username.
 
 2. Cuando se intenta crear un usuario que ya se encuentra registrado, el servicio responde correctamente con el mensaje “This user already exist.”, lo cual demuestra que la API cuenta con un control básico para evitar duplicados.
 
