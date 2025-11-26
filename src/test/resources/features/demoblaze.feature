@@ -11,9 +11,9 @@ Feature: Prueba Sofka API Demoblaze
     When method post
     Then status 200
 
-
     Examples:
-      | { username: 'newUser1', password: 'newUser1' } |
+      | username  | password  |
+      | newUser1  | newUser1  |
 
 @id:CasodePrueba2
   Scenario Outline: Creación de usuario existente
@@ -24,7 +24,8 @@ Feature: Prueba Sofka API Demoblaze
     And match response contains { errorMessage: 'This user already exist.' }
 
     Examples:
-      | { username: 'nuevoUsuario1', password: 'password1234' } |
+      | username  | password  |
+      | nuevoUsuario1  | password1234  |
 
 @id:CasodePrueba3
   Scenario Outline: Usuario y Contraseña Correctos
@@ -34,7 +35,8 @@ Feature: Prueba Sofka API Demoblaze
     Then status 200
 
     Examples:
-      | { username: 'nuevoUsuario1', password: 'password123' } |
+      | username  | password  |
+      | nuevoUsuario1  | password1234  |
 
  @id:CasodePrueba4
   Scenario Outline: usuario  y contraseña incorrecto 
@@ -45,5 +47,6 @@ Feature: Prueba Sofka API Demoblaze
     And match response contains { errorMessage: 'Wrong password.' }
 
     Examples:
-      | { username: 'Elizabeth', password: '1725531956' } |
+      | username  | password  |
+      | Elizabeth  | 1725531956  |
  
