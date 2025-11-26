@@ -1,8 +1,5 @@
 # Prueba Sofka – API Demoblaze  
 Automatización de pruebas utilizando Karate DSL para los servicios Signup y Login de la API de Demoblaze.
-
----
-
 ## 1. Descripción del ejercicio
 
 El sitio web https://www.demoblaze.com ofrece funcionalidades de registro y login.  
@@ -19,9 +16,6 @@ Los casos de prueba implementados son:
 4. Usuario y password incorrectos en login
 
 El repositorio contiene scripts, archivos, código y reportes necesarios para reproducir completamente el ejercicio.
-
----
-
 ## 2. Requisitos previos
 
 Antes de ejecutar el proyecto debes contar con:
@@ -34,9 +28,6 @@ Verificar versiones:
 
 java -version  
 mvn -version
-
----
-
 ## 3. Estructura del proyecto
 
 El repositorio contiene la siguiente estructura:
@@ -55,9 +46,6 @@ El repositorio contiene la siguiente estructura:
 
 El archivo principal de pruebas es:  
 src/test/java/examples/demoblaze.feature
-
----
-
 ## 4. Instrucciones de ejecución (PASO A PASO)
 
 1. Clonar el repositorio público:
@@ -78,9 +66,6 @@ Desde el reporte podrás visualizar:
 - Respuestas recibidas
 - Mensajes de error
 - Validaciones exitosas o fallidas
-
----
-
 ## 5. Casos de prueba implementados
 
 ### Caso 1 – Crear nuevo usuario  
@@ -108,9 +93,6 @@ Realiza un POST a /login con credenciales erróneas.
 Validación:
 - status 200
 - Mensaje: "Wrong password."
-
----
-
 ## 6. Código completo del archivo Feature
 
 Feature: Prueba Sofka API Demoblaze
@@ -159,9 +141,6 @@ Feature: Prueba Sofka API Demoblaze
 
     Examples:
       | { username: 'Elizabeth', password: '1725531956' } |
-
----
-
 ## 7. Cómo reproducir completamente el proyecto
 
 1. Clonar repositorio  
@@ -169,23 +148,3 @@ Feature: Prueba Sofka API Demoblaze
 3. Abrir reporte HTML  
 4. Revisar request/response de cada caso  
 5. Validar resultados y mensajes devueltos por la API  
-
----
-
-## 8. Autor
-
-Keliza Vargas  
-Automatización de Pruebas – Karate DSL  
-GitHub: https://github.com/keliza94
-
----
-
-## 9. Estado del proyecto
-
-✔ Repositorio público  
-✔ Scripts y archivos incluidos  
-✔ Pruebas reproducibles  
-✔ Reportes generados con Karate  
-✔ README completo  
-✔ Casos de prueba implementados  
-
