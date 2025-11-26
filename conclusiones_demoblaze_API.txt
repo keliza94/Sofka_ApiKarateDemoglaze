@@ -1,0 +1,23 @@
+Escenarios Evaluados
+
+✅ Crear Usuario Exitosamente
+Hallazgo: El sistema permite la creación de usuarios con credenciales únicas.
+Conclusión: La funcionalidad está correctamente implementada y no presenta errores evidentes.
+
+🚫 Intentar Crear Usuario Existente
+Hallazgo: Se devuelve un mensaje de error indicando que el usuario ya existe.
+Conclusión: La validación para evitar duplicados funciona correctamente.
+
+🔐 Iniciar Sesión Exitosamente
+Hallazgo: Los usuarios con credenciales válidas pueden iniciar sesión sin inconvenientes.
+Conclusión: El sistema permite el acceso a usuarios válidos de forma adecuada.
+
+❌ Intentar Iniciar Sesión con Credenciales Inválidas
+Hallazgo: Se muestra un mensaje de error indicando que el usuario no existe.
+
+Conclusión: La validación de credenciales inválidas está correctamente implementada.
+
+Observaciones Adicionales
+Códigos de Estado HTTP: Se espera un código 200 en todos los escenarios, lo cual es aceptable si la API maneja errores controlados dentro de respuestas exitosas.
+Mensajes de Error: La verificación de mensajes específicos es clave para asegurar una comunicación clara y efectiva con el usuario.
+Cobertura de Escenarios: Se han contemplado tanto casos positivos como negativos, lo que contribuye a validar la robustez y seguridad de la API.
