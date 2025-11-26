@@ -36,4 +36,14 @@ Feature: Prueba Sofka API Demoblaze
     Examples:
       | { username: 'nuevoUsuario1', password: 'password123' } |
 
-  
+ @id:CasodePrueba4
+  Scenario Outline: usuario  y contraseña incorrecto 
+    Given path '/login'
+    And request { username: '<username>', password: '<password>' }
+    When method post
+    Then status 200
+    And match response contains { errorMessage: 'Wrong password.' }
+
+    Examples:
+      | { username: 'Elizabeth', password: '1725531956' } |
+ 
