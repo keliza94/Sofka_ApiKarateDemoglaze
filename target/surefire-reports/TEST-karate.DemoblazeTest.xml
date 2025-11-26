@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="karate.DemoblazeTest" time="4.658" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="karate.DemoblazeTest" time="5.264" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="EC"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire5233069516531718282\surefirebooter-20251126164626929_3.jar C:\Users\ASUS\AppData\Local\Temp\surefire5233069516531718282 2025-11-26T16-46-26_430-jvmRun1 surefire-20251126164626929_1tmp surefire_0-20251126164626929_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire12977283459203034852\surefirebooter-20251126170803833_3.jar C:\Users\ASUS\AppData\Local\Temp\surefire12977283459203034852 2025-11-26T17-08-03_128-jvmRun1 surefire-20251126170803833_1tmp surefire_0-20251126170803833_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ASUS\Documents\sofka\Sofka_ApiKarateDemoglaze\target\test-classes;C:\Users\ASUS\Documents\sofka\Sofka_ApiKarateDemoglaze\target\classes;C:\Users\ASUS\.m2\repository\com\intuit\karate\karate-junit5\1.2.0\karate-junit5-1.2.0.jar;C:\Users\ASUS\.m2\repository\com\intuit\karate\karate-core\1.2.0\karate-core-1.2.0.jar;C:\Users\ASUS\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\ASUS\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\ASUS\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\ASUS\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\ASUS\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\ASUS\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\ASUS\.m2\repository\org\thymeleaf\thymeleaf\3.0.14.RELEASE\thymeleaf-3.0.14.RELEASE.jar;C:\Users\ASUS\.m2\repository\ognl\ognl\3.1.26\ognl-3.1.26.jar;C:\Users\ASUS\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\ASUS\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\ASUS\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\ASUS\.m2\repository\com\linecorp\armeria\armeria\1.13.4\armeria-1.13.4.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\ASUS\.m2\repository\io\micrometer\micrometer-core\1.7.6\micrometer-core-1.7.6.jar;C:\Users\ASUS\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\ASUS\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final-linux-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.44.Final\netty-tcnative-boringssl-static-2.0.44.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\ASUS\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.6.0\brotli4j-1.6.0.jar;C:\Users\ASUS\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.6.0\native-windows-x86_64-1.6.0.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ASUS\.m2\repository\ch\qos\logback\logback-classic\1.2.9\logback-classic-1.2.9.jar;C:\Users\ASUS\.m2\repository\ch\qos\logback\logback-core\1.2.9\logback-core-1.2.9.jar;C:\Users\ASUS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.32\jcl-over-slf4j-1.7.32.jar;C:\Users\ASUS\.m2\repository\org\antlr\antlr4-runtime\4.9.2\antlr4-runtime-4.9.2.jar;C:\Users\ASUS\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\ASUS\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\ASUS\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\ASUS\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\ASUS\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\ASUS\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\ASUS\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\ASUS\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\ASUS\.m2\repository\io\github\classgraph\classgraph\4.8.108\classgraph-4.8.108.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\ASUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ASUS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire5233069516531718282\surefirebooter-20251126164626929_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire12977283459203034852\surefirebooter-20251126170803833_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.28+12-LTS-279"/>
@@ -61,31 +61,31 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="[1.1:16] Crear nuevo Usuario" classname="features/demoblaze" time="1.403">
-    <system-out><![CDATA[16:46:28.117 [main] DEBUG com.intuit.karate.Suite - [config] karate-config.js
-16:46:28.905 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
-16:46:28.987 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
-16:46:28.990 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-16:46:28.990 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
-16:46:28.991 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-16:46:28.991 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-16:46:28.992 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-16:46:28.992 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-16:46:28.993 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-16:46:28.994 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @66420549
-16:46:28.996 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-16:46:28.996 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-16:46:28.997 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 2621440000 bytes (maybe)
-16:46:28.997 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\ASUS\AppData\Local\Temp (java.io.tmpdir)
-16:46:28.997 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-16:46:28.997 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
-16:46:28.999 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-16:46:28.999 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-16:46:29.000 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-16:46:29.000 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-16:46:29.511 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
-16:46:29.523 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-16:46:29.525 [main] DEBUG com.intuit.karate - request:
+  <testcase name="[1.1:16] Crear nuevo Usuario" classname="features/demoblaze" time="1.302">
+    <system-out><![CDATA[17:08:05.595 [main] DEBUG com.intuit.karate.Suite - [config] karate-config.js
+17:08:06.573 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+17:08:06.599 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+17:08:06.601 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+17:08:06.601 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+17:08:06.602 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+17:08:06.602 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+17:08:06.603 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+17:08:06.603 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+17:08:06.604 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+17:08:06.604 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @66420549
+17:08:06.605 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+17:08:06.605 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+17:08:06.606 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 2621440000 bytes (maybe)
+17:08:06.606 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\ASUS\AppData\Local\Temp (java.io.tmpdir)
+17:08:06.606 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+17:08:06.607 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+17:08:06.607 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+17:08:06.607 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+17:08:06.608 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+17:08:06.608 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+17:08:07.175 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
+17:08:07.183 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+17:08:07.184 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api.demoblaze.com/signup
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 45
@@ -93,72 +93,94 @@
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)
 1 > Accept-Encoding: gzip,deflate
-{"username":"newUser1","password":"newUser1"}
+{"username":"username","password":"password"}
 
-16:46:29.526 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
-16:46:29.537 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
-16:46:29.538 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.demoblaze.com:443
-16:46:29.747 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.demoblaze.com/172.217.162.147:443
-16:46:29.747 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.demoblaze.com/172.217.162.147:443 with timeout 30000
-16:46:29.782 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
-16:46:29.782 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
-16:46:29.782 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
-16:46:29.993 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
-16:46:29.993 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
-16:46:29.993 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
-16:46:29.993 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=api.demoblaze.com
-16:46:29.994 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [api.demoblaze.com]
-16:46:29.994 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=WR3, O=Google Trust Services, C=US
-16:46:30.022 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.18.180:63565<->172.217.162.147:443
-16:46:30.023 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 30000
-16:46:30.023 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /signup HTTP/1.1
-16:46:30.023 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
-16:46:30.024 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
-16:46:30.025 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> POST /signup HTTP/1.1
-16:46:30.025 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json; charset=UTF-8
-16:46:30.025 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Length: 45
-16:46:30.025 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: api.demoblaze.com
-16:46:30.025 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
-16:46:30.025 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)
-16:46:30.025 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
-16:46:30.025 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "POST /signup HTTP/1.1[\r][\n]"
-16:46:30.025 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
-16:46:30.025 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 45[\r][\n]"
-16:46:30.025 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: api.demoblaze.com[\r][\n]"
-16:46:30.025 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-16:46:30.025 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)[\r][\n]"
-16:46:30.025 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-16:46:30.025 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
-16:46:30.025 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"username":"newUser1","password":"newUser1"}"
-16:46:30.165 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-16:46:30.165 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "content-type: application/json[\r][\n]"
-16:46:30.165 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "vary: Accept-Encoding[\r][\n]"
-16:46:30.166 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "content-encoding: gzip[\r][\n]"
-16:46:30.166 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "x-cloud-trace-context: be84efa01e8f03df48d9f14cbea7976a[\r][\n]"
-16:46:30.166 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "date: Wed, 26 Nov 2025 21:46:31 GMT[\r][\n]"
-16:46:30.166 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "server: Google Frontend[\r][\n]"
-16:46:30.166 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
-16:46:30.166 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
-16:46:30.166 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00001[\r][\n]"
-16:46:30.166 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][\r][\n]"
-16:46:30.166 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "45[\r][\n]"
-16:46:30.166 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x4][0x3][0xaa]VJ-*[0xca]/[0xf2]M-.NLOU[0xb2]R[\n]"
-16:46:30.166 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0xc9][0xc8],V(-N-RH[0xcc])JML[0xa9]TH[0xad][0xc8],.[0xd1]S[0xaa][0xe5][0x2][0x0][0x0][0x0][0xff][0xff][0x3][0x0]E[0xcb]3[0x94],[0x0][0x0][0x0][\r][\n]"
-16:46:30.170 [main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
-16:46:30.170 [main] DEBUG org.apache.http.headers - http-outgoing-0 << content-type: application/json
-16:46:30.170 [main] DEBUG org.apache.http.headers - http-outgoing-0 << vary: Accept-Encoding
-16:46:30.170 [main] DEBUG org.apache.http.headers - http-outgoing-0 << content-encoding: gzip
-16:46:30.170 [main] DEBUG org.apache.http.headers - http-outgoing-0 << x-cloud-trace-context: be84efa01e8f03df48d9f14cbea7976a
-16:46:30.170 [main] DEBUG org.apache.http.headers - http-outgoing-0 << date: Wed, 26 Nov 2025 21:46:31 GMT
-16:46:30.170 [main] DEBUG org.apache.http.headers - http-outgoing-0 << server: Google Frontend
-16:46:30.170 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
-16:46:30.173 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
-16:46:30.200 [main] DEBUG com.intuit.karate - response time in milliseconds: 650
+17:08:07.186 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+17:08:07.197 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+17:08:07.198 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.demoblaze.com:443
+17:08:07.213 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.demoblaze.com/172.217.30.179:443
+17:08:07.213 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.demoblaze.com/172.217.30.179:443 with timeout 30000
+17:08:07.251 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
+17:08:07.251 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+17:08:07.251 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+17:08:07.493 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+17:08:07.494 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
+17:08:07.494 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+17:08:07.494 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=api.demoblaze.com
+17:08:07.494 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [api.demoblaze.com]
+17:08:07.494 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=WR3, O=Google Trust Services, C=US
+17:08:07.497 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.18.180:50522<->172.217.30.179:443
+17:08:07.497 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 30000
+17:08:07.497 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /signup HTTP/1.1
+17:08:07.497 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+17:08:07.498 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+17:08:07.499 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> POST /signup HTTP/1.1
+17:08:07.499 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json; charset=UTF-8
+17:08:07.499 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Length: 45
+17:08:07.499 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: api.demoblaze.com
+17:08:07.499 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+17:08:07.499 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)
+17:08:07.499 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+17:08:07.499 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "POST /signup HTTP/1.1[\r][\n]"
+17:08:07.499 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+17:08:07.500 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+17:08:07.500 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: api.demoblaze.com[\r][\n]"
+17:08:07.500 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+17:08:07.500 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)[\r][\n]"
+17:08:07.500 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:08:07.500 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+17:08:07.500 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"username":"username","password":"password"}"
+17:08:07.733 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+17:08:07.733 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "content-type: application/json[\r][\n]"
+17:08:07.733 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "vary: Accept-Encoding[\r][\n]"
+17:08:07.733 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "content-encoding: gzip[\r][\n]"
+17:08:07.733 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "x-cloud-trace-context: c8d0250bdf6c545b4416c53112264e7b[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "date: Wed, 26 Nov 2025 22:08:09 GMT[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "server: Google Frontend[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00000001[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00000001[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x8b][\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00000001[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x8][\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00000001[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x0][\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00000001[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x0][\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00000001[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x0][\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00000001[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x0][\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00000001[\r][\n]"
+17:08:07.734 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x0][\r][\n]"
+17:08:07.735 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00000001[\r][\n]"
+17:08:07.735 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x4][\r][\n]"
+17:08:07.735 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00000001[\r][\n]"
+17:08:07.735 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x3][\r][\n]"
+17:08:07.735 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00000001[\r][\n]"
+17:08:07.735 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0xaa][\r][\n]"
+17:08:07.735 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "00000001[\r][\n]"
+17:08:07.735 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "V[\r][\n]"
+17:08:07.735 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "3a[\r][\n]"
+17:08:07.735 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "J-*[0xca]/[0xf2]M-.NLOU[0xb2]R[\n]"
+17:08:07.735 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0xc9][0xc8],V(-N-RH[0xcc])JML[0xa9]TH[0xad][0xc8],.[0xd1]S[0xaa][0xe5][0x2][0x0][0x0][0x0][0xff][0xff][0x3][0x0]E[0xcb]3[0x94],[0x0][0x0][0x0][\r][\n]"
+17:08:07.737 [main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+17:08:07.738 [main] DEBUG org.apache.http.headers - http-outgoing-0 << content-type: application/json
+17:08:07.738 [main] DEBUG org.apache.http.headers - http-outgoing-0 << vary: Accept-Encoding
+17:08:07.738 [main] DEBUG org.apache.http.headers - http-outgoing-0 << content-encoding: gzip
+17:08:07.738 [main] DEBUG org.apache.http.headers - http-outgoing-0 << x-cloud-trace-context: c8d0250bdf6c545b4416c53112264e7b
+17:08:07.738 [main] DEBUG org.apache.http.headers - http-outgoing-0 << date: Wed, 26 Nov 2025 22:08:09 GMT
+17:08:07.738 [main] DEBUG org.apache.http.headers - http-outgoing-0 << server: Google Frontend
+17:08:07.738 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+17:08:07.742 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+17:08:07.747 [main] DEBUG com.intuit.karate - response time in milliseconds: 561
 1 < 200
 1 < content-type: application/json
 1 < vary: Accept-Encoding
-1 < x-cloud-trace-context: be84efa01e8f03df48d9f14cbea7976a
-1 < date: Wed, 26 Nov 2025 21:46:31 GMT
+1 < x-cloud-trace-context: c8d0250bdf6c545b4416c53112264e7b
+1 < date: Wed, 26 Nov 2025 22:08:09 GMT
 1 < server: Google Frontend
 1 < Transfer-Encoding: chunked
 {"errorMessage":"This user already exist."}
@@ -166,11 +188,11 @@
 
 ]]></system-out>
   </testcase>
-  <testcase name="[2.1:28] Creación de usuario existente" classname="features/demoblaze" time="0.397">
-    <system-out><![CDATA[16:46:30.218 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
-16:46:30.220 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
-16:46:30.220 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-16:46:30.220 [main] DEBUG com.intuit.karate - request:
+  <testcase name="[2.1:28] Creación de usuario existente" classname="features/demoblaze" time="0.4">
+    <system-out><![CDATA[17:08:07.777 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+17:08:07.779 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
+17:08:07.779 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+17:08:07.780 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api.demoblaze.com/signup
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 54
@@ -180,115 +202,103 @@
 1 > Accept-Encoding: gzip,deflate
 {"username":"nuevoUsuario1","password":"password1234"}
 
-16:46:30.220 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
-16:46:30.221 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
-16:46:30.221 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.demoblaze.com:443
-16:46:30.221 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.demoblaze.com/172.217.162.147:443
-16:46:30.221 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.demoblaze.com/172.217.162.147:443 with timeout 30000
-16:46:30.261 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
-16:46:30.261 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
-16:46:30.261 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
-16:46:30.351 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
-16:46:30.351 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
-16:46:30.351 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
-16:46:30.351 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=api.demoblaze.com
-16:46:30.351 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [api.demoblaze.com]
-16:46:30.351 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=WR3, O=Google Trust Services, C=US
-16:46:30.351 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.18.180:63566<->172.217.162.147:443
-16:46:30.351 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 30000
-16:46:30.351 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /signup HTTP/1.1
-16:46:30.351 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
-16:46:30.351 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
-16:46:30.352 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> POST /signup HTTP/1.1
-16:46:30.352 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Type: application/json; charset=UTF-8
-16:46:30.352 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Length: 54
-16:46:30.352 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Host: api.demoblaze.com
-16:46:30.352 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Connection: Keep-Alive
-16:46:30.352 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)
-16:46:30.352 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
-16:46:30.352 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "POST /signup HTTP/1.1[\r][\n]"
-16:46:30.352 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
-16:46:30.352 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Length: 54[\r][\n]"
-16:46:30.352 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Host: api.demoblaze.com[\r][\n]"
-16:46:30.352 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
-16:46:30.352 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)[\r][\n]"
-16:46:30.352 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-16:46:30.352 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
-16:46:30.352 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "{"username":"nuevoUsuario1","password":"password1234"}"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "content-type: application/json[\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "vary: Accept-Encoding[\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "content-encoding: gzip[\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "x-cloud-trace-context: 1cf0685b6eccf675c9910db309f8e10d[\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "date: Wed, 26 Nov 2025 21:46:31 GMT[\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "server: Google Frontend[\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Transfer-Encoding: chunked[\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x1f][\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x8b][\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.550 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x8][\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x0][\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x0][\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x0][\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x0][\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x0][\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x4][\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x3][\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0xaa][\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "V[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "J[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "-[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "*[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
-16:46:30.551 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0xca][\r][\n]"
-16:46:30.552 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "1[\r][\n]"
-16:46:30.552 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "/[\r][\n]"
-16:46:30.552 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "35[\r][\n]"
-16:46:30.552 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0xf2]M-.NLOU[0xb2]R[\n]"
-16:46:30.552 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0xc9][0xc8],V(-N-RH[0xcc])JML[0xa9]TH[0xad][0xc8],.[0xd1]S[0xaa][0xe5][0x2][0x0][0x0][0x0][0xff][0xff][0x3][0x0]E[0xcb]3[0x94],[0x0][0x0][0x0][\r][\n]"
-16:46:30.552 [main] DEBUG org.apache.http.headers - http-outgoing-1 << HTTP/1.1 200 OK
-16:46:30.552 [main] DEBUG org.apache.http.headers - http-outgoing-1 << content-type: application/json
-16:46:30.552 [main] DEBUG org.apache.http.headers - http-outgoing-1 << vary: Accept-Encoding
-16:46:30.552 [main] DEBUG org.apache.http.headers - http-outgoing-1 << content-encoding: gzip
-16:46:30.552 [main] DEBUG org.apache.http.headers - http-outgoing-1 << x-cloud-trace-context: 1cf0685b6eccf675c9910db309f8e10d
-16:46:30.552 [main] DEBUG org.apache.http.headers - http-outgoing-1 << date: Wed, 26 Nov 2025 21:46:31 GMT
-16:46:30.552 [main] DEBUG org.apache.http.headers - http-outgoing-1 << server: Google Frontend
-16:46:30.552 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Transfer-Encoding: chunked
-16:46:30.552 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
-16:46:30.552 [main] DEBUG com.intuit.karate - response time in milliseconds: 332
+17:08:07.780 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+17:08:07.780 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+17:08:07.780 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.demoblaze.com:443
+17:08:07.780 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.demoblaze.com/172.217.30.179:443
+17:08:07.780 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.demoblaze.com/172.217.30.179:443 with timeout 30000
+17:08:07.806 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
+17:08:07.806 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+17:08:07.806 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+17:08:07.957 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+17:08:07.957 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
+17:08:07.957 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+17:08:07.957 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=api.demoblaze.com
+17:08:07.957 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [api.demoblaze.com]
+17:08:07.957 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=WR3, O=Google Trust Services, C=US
+17:08:07.957 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.18.180:50523<->172.217.30.179:443
+17:08:07.957 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 30000
+17:08:07.957 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /signup HTTP/1.1
+17:08:07.958 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+17:08:07.958 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+17:08:07.959 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> POST /signup HTTP/1.1
+17:08:07.959 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Type: application/json; charset=UTF-8
+17:08:07.959 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Length: 54
+17:08:07.959 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Host: api.demoblaze.com
+17:08:07.959 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Connection: Keep-Alive
+17:08:07.959 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)
+17:08:07.959 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+17:08:07.959 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "POST /signup HTTP/1.1[\r][\n]"
+17:08:07.959 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+17:08:07.959 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Length: 54[\r][\n]"
+17:08:07.960 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Host: api.demoblaze.com[\r][\n]"
+17:08:07.960 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+17:08:07.960 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)[\r][\n]"
+17:08:07.960 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:08:07.960 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
+17:08:07.960 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "{"username":"nuevoUsuario1","password":"password1234"}"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "content-type: application/json[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "vary: Accept-Encoding[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "content-encoding: gzip[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "x-cloud-trace-context: a7ef06b658db6a3ada08aa45d9ca8351[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "date: Wed, 26 Nov 2025 22:08:09 GMT[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "server: Google Frontend[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Transfer-Encoding: chunked[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x1f][\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x8b][\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x8][\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x0][\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x0][\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x0][\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x0][\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x0][\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
+17:08:08.142 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x4][\r][\n]"
+17:08:08.143 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "00000001[\r][\n]"
+17:08:08.143 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0x3][\r][\n]"
+17:08:08.143 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "001[\r][\n]"
+17:08:08.143 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0xaa][\r][\n]"
+17:08:08.143 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "3b[\r][\n]"
+17:08:08.143 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "VJ-*[0xca]/[0xf2]M-.NLOU[0xb2]R[\n]"
+17:08:08.143 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[0xc9][0xc8],V(-N-RH[0xcc])JML[0xa9]TH[0xad][0xc8],.[0xd1]S[0xaa][0xe5][0x2][0x0][0x0][0x0][0xff][0xff][0x3][0x0]E[0xcb]3[0x94],[0x0][0x0][0x0][\r][\n]"
+17:08:08.143 [main] DEBUG org.apache.http.headers - http-outgoing-1 << HTTP/1.1 200 OK
+17:08:08.143 [main] DEBUG org.apache.http.headers - http-outgoing-1 << content-type: application/json
+17:08:08.143 [main] DEBUG org.apache.http.headers - http-outgoing-1 << vary: Accept-Encoding
+17:08:08.143 [main] DEBUG org.apache.http.headers - http-outgoing-1 << content-encoding: gzip
+17:08:08.143 [main] DEBUG org.apache.http.headers - http-outgoing-1 << x-cloud-trace-context: a7ef06b658db6a3ada08aa45d9ca8351
+17:08:08.143 [main] DEBUG org.apache.http.headers - http-outgoing-1 << date: Wed, 26 Nov 2025 22:08:09 GMT
+17:08:08.143 [main] DEBUG org.apache.http.headers - http-outgoing-1 << server: Google Frontend
+17:08:08.143 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Transfer-Encoding: chunked
+17:08:08.143 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+17:08:08.144 [main] DEBUG com.intuit.karate - response time in milliseconds: 363
 1 < 200
 1 < content-type: application/json
 1 < vary: Accept-Encoding
-1 < x-cloud-trace-context: 1cf0685b6eccf675c9910db309f8e10d
-1 < date: Wed, 26 Nov 2025 21:46:31 GMT
+1 < x-cloud-trace-context: a7ef06b658db6a3ada08aa45d9ca8351
+1 < date: Wed, 26 Nov 2025 22:08:09 GMT
 1 < server: Google Frontend
 1 < Transfer-Encoding: chunked
 {"errorMessage":"This user already exist."}
 
 
-16:46:30.558 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+17:08:08.153 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
 ]]></system-out>
   </testcase>
-  <testcase name="[3.1:39] Usuario y Contraseña Correctos" classname="features/demoblaze" time="0.351">
-    <system-out><![CDATA[16:46:30.616 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
-16:46:30.618 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
-16:46:30.618 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-16:46:30.618 [main] DEBUG com.intuit.karate - request:
+  <testcase name="[3.1:39] Usuario y Contraseña Correctos" classname="features/demoblaze" time="0.359">
+    <system-out><![CDATA[17:08:08.174 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+17:08:08.175 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
+17:08:08.176 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+17:08:08.176 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api.demoblaze.com/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 54
@@ -298,70 +308,96 @@
 1 > Accept-Encoding: gzip,deflate
 {"username":"nuevoUsuario1","password":"password1234"}
 
-16:46:30.618 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
-16:46:30.618 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
-16:46:30.618 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.demoblaze.com:443
-16:46:30.619 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.demoblaze.com/172.217.162.147:443
-16:46:30.619 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.demoblaze.com/172.217.162.147:443 with timeout 30000
-16:46:30.647 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
-16:46:30.647 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
-16:46:30.648 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
-16:46:30.758 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
-16:46:30.758 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
-16:46:30.758 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
-16:46:30.759 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=api.demoblaze.com
-16:46:30.759 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [api.demoblaze.com]
-16:46:30.759 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=WR3, O=Google Trust Services, C=US
-16:46:30.759 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.18.180:63567<->172.217.162.147:443
-16:46:30.759 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 30000
-16:46:30.759 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /login HTTP/1.1
-16:46:30.759 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
-16:46:30.759 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
-16:46:30.759 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> POST /login HTTP/1.1
-16:46:30.760 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Type: application/json; charset=UTF-8
-16:46:30.760 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Length: 54
-16:46:30.760 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Host: api.demoblaze.com
-16:46:30.760 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Connection: Keep-Alive
-16:46:30.760 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)
-16:46:30.760 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Accept-Encoding: gzip,deflate
-16:46:30.760 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "POST /login HTTP/1.1[\r][\n]"
-16:46:30.760 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
-16:46:30.760 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Length: 54[\r][\n]"
-16:46:30.760 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Host: api.demoblaze.com[\r][\n]"
-16:46:30.760 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
-16:46:30.760 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)[\r][\n]"
-16:46:30.760 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-16:46:30.760 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "[\r][\n]"
-16:46:30.760 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "{"username":"nuevoUsuario1","password":"password1234"}"
-16:46:30.953 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "content-type: application/json[\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "vary: Accept-Encoding[\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "content-encoding: gzip[\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "x-cloud-trace-context: b336f73338beca380bd4a4dadfaf9216[\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "date: Wed, 26 Nov 2025 21:46:32 GMT[\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "server: Google Frontend[\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Transfer-Encoding: chunked[\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0x1f][\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "3c[\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x4][0x3][0xaa]VJ-*[0xca]/[0xf2]M-.NLOU[0xb2]R[\n]"
-16:46:30.954 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "/[0xca][0xcf]KW(H,..[0xcf]/J[0xd1]S[0xaa][0xe5][0x2][0x0][0x0][0x0][0xff][0xff][0x3][0x0])u[0x13][0x97]#[0x0][0x0][0x0][\r][\n]"
-16:46:30.954 [main] DEBUG org.apache.http.headers - http-outgoing-2 << HTTP/1.1 200 OK
-16:46:30.954 [main] DEBUG org.apache.http.headers - http-outgoing-2 << content-type: application/json
-16:46:30.954 [main] DEBUG org.apache.http.headers - http-outgoing-2 << vary: Accept-Encoding
-16:46:30.954 [main] DEBUG org.apache.http.headers - http-outgoing-2 << content-encoding: gzip
-16:46:30.954 [main] DEBUG org.apache.http.headers - http-outgoing-2 << x-cloud-trace-context: b336f73338beca380bd4a4dadfaf9216
-16:46:30.954 [main] DEBUG org.apache.http.headers - http-outgoing-2 << date: Wed, 26 Nov 2025 21:46:32 GMT
-16:46:30.954 [main] DEBUG org.apache.http.headers - http-outgoing-2 << server: Google Frontend
-16:46:30.954 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Transfer-Encoding: chunked
-16:46:30.954 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
-16:46:30.955 [main] DEBUG com.intuit.karate - response time in milliseconds: 337
+17:08:08.176 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+17:08:08.176 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+17:08:08.176 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.demoblaze.com:443
+17:08:08.177 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.demoblaze.com/172.217.30.179:443
+17:08:08.177 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.demoblaze.com/172.217.30.179:443 with timeout 30000
+17:08:08.204 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
+17:08:08.204 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+17:08:08.205 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+17:08:08.355 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+17:08:08.355 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
+17:08:08.355 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+17:08:08.356 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=api.demoblaze.com
+17:08:08.356 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [api.demoblaze.com]
+17:08:08.356 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=WR3, O=Google Trust Services, C=US
+17:08:08.356 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.18.180:50524<->172.217.30.179:443
+17:08:08.356 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 30000
+17:08:08.356 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /login HTTP/1.1
+17:08:08.356 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+17:08:08.356 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+17:08:08.356 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> POST /login HTTP/1.1
+17:08:08.356 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Type: application/json; charset=UTF-8
+17:08:08.356 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Length: 54
+17:08:08.357 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Host: api.demoblaze.com
+17:08:08.357 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Connection: Keep-Alive
+17:08:08.357 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)
+17:08:08.357 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+17:08:08.357 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "POST /login HTTP/1.1[\r][\n]"
+17:08:08.357 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+17:08:08.357 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Length: 54[\r][\n]"
+17:08:08.357 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Host: api.demoblaze.com[\r][\n]"
+17:08:08.357 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+17:08:08.357 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)[\r][\n]"
+17:08:08.357 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:08:08.357 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "[\r][\n]"
+17:08:08.357 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "{"username":"nuevoUsuario1","password":"password1234"}"
+17:08:08.516 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "content-type: application/json[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "vary: Accept-Encoding[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "content-encoding: gzip[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "x-cloud-trace-context: 364f2cf2da173f790e603ca68b4e288f[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "date: Wed, 26 Nov 2025 22:08:09 GMT[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "server: Google Frontend[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Transfer-Encoding: chunked[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0x1f][\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0x8b][\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0x8][\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0x0][\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0x0][\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.517 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0x0][\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0x0][\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0x0][\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0x4][\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0x3][\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[0xaa][\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "V[\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00000001[\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "J[\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "00001[\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "-[\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "2f[\r][\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "*[0xca]/[0xf2]M-.NLOU[0xb2]R[\n]"
+17:08:08.518 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "/[0xca][0xcf]KW(H,..[0xcf]/J[0xd1]S[0xaa][0xe5][0x2][0x0][0x0][0x0][0xff][0xff][0x3][0x0])u[0x13][0x97]#[0x0][0x0][0x0][\r][\n]"
+17:08:08.519 [main] DEBUG org.apache.http.headers - http-outgoing-2 << HTTP/1.1 200 OK
+17:08:08.519 [main] DEBUG org.apache.http.headers - http-outgoing-2 << content-type: application/json
+17:08:08.519 [main] DEBUG org.apache.http.headers - http-outgoing-2 << vary: Accept-Encoding
+17:08:08.519 [main] DEBUG org.apache.http.headers - http-outgoing-2 << content-encoding: gzip
+17:08:08.519 [main] DEBUG org.apache.http.headers - http-outgoing-2 << x-cloud-trace-context: 364f2cf2da173f790e603ca68b4e288f
+17:08:08.519 [main] DEBUG org.apache.http.headers - http-outgoing-2 << date: Wed, 26 Nov 2025 22:08:09 GMT
+17:08:08.519 [main] DEBUG org.apache.http.headers - http-outgoing-2 << server: Google Frontend
+17:08:08.519 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Transfer-Encoding: chunked
+17:08:08.519 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+17:08:08.519 [main] DEBUG com.intuit.karate - response time in milliseconds: 343
 1 < 200
 1 < content-type: application/json
 1 < vary: Accept-Encoding
-1 < x-cloud-trace-context: b336f73338beca380bd4a4dadfaf9216
-1 < date: Wed, 26 Nov 2025 21:46:32 GMT
+1 < x-cloud-trace-context: 364f2cf2da173f790e603ca68b4e288f
+1 < date: Wed, 26 Nov 2025 22:08:09 GMT
 1 < server: Google Frontend
 1 < Transfer-Encoding: chunked
 {"errorMessage":"Wrong password."}
@@ -369,11 +405,11 @@
 
 ]]></system-out>
   </testcase>
-  <testcase name="[4.1:51] usuario  y contraseña incorrecto" classname="features/demoblaze" time="1.305">
-    <system-out><![CDATA[16:46:30.967 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
-16:46:30.969 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
-16:46:30.969 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-16:46:30.969 [main] DEBUG com.intuit.karate - request:
+  <testcase name="[4.1:51] usuario  y contraseña incorrecto" classname="features/demoblaze" time="1.567">
+    <system-out><![CDATA[17:08:08.530 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+17:08:08.532 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
+17:08:08.532 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+17:08:08.532 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api.demoblaze.com/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 48
@@ -383,118 +419,106 @@
 1 > Accept-Encoding: gzip,deflate
 {"username":"Elizabeth","password":"1725531956"}
 
-16:46:30.970 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
-16:46:30.970 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 3][route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
-16:46:30.970 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.demoblaze.com:443
-16:46:30.970 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.demoblaze.com/172.217.162.147:443
-16:46:30.970 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.demoblaze.com/172.217.162.147:443 with timeout 30000
-16:46:30.996 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
-16:46:30.996 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
-16:46:30.996 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
-16:46:31.166 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
-16:46:31.166 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
-16:46:31.166 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
-16:46:31.166 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=api.demoblaze.com
-16:46:31.166 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [api.demoblaze.com]
-16:46:31.166 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=WR3, O=Google Trust Services, C=US
-16:46:31.166 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.18.180:63568<->172.217.162.147:443
-16:46:31.166 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 30000
-16:46:31.166 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /login HTTP/1.1
-16:46:31.166 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
-16:46:31.166 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
-16:46:31.166 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> POST /login HTTP/1.1
-16:46:31.166 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Type: application/json; charset=UTF-8
-16:46:31.166 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Length: 48
-16:46:31.166 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Host: api.demoblaze.com
-16:46:31.166 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Connection: Keep-Alive
-16:46:31.167 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)
-16:46:31.167 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Accept-Encoding: gzip,deflate
-16:46:31.167 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "POST /login HTTP/1.1[\r][\n]"
-16:46:31.167 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
-16:46:31.167 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Length: 48[\r][\n]"
-16:46:31.167 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Host: api.demoblaze.com[\r][\n]"
-16:46:31.167 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
-16:46:31.167 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)[\r][\n]"
-16:46:31.167 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-16:46:31.167 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "[\r][\n]"
-16:46:31.167 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "{"username":"Elizabeth","password":"1725531956"}"
-16:46:31.366 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
-16:46:31.366 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "content-type: application/json[\r][\n]"
-16:46:31.366 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "vary: Accept-Encoding[\r][\n]"
-16:46:31.366 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "content-encoding: gzip[\r][\n]"
-16:46:31.366 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "x-cloud-trace-context: 74aea4dbb336af848b42f87e8cb2dabb[\r][\n]"
-16:46:31.366 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "date: Wed, 26 Nov 2025 21:46:32 GMT[\r][\n]"
-16:46:31.366 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "server: Google Frontend[\r][\n]"
-16:46:31.366 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Transfer-Encoding: chunked[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x1f][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x8b][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x8][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x4][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x3][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0xaa][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "V[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "J[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "-[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "*[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0xca][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "/[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0xf2][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "M[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "-[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "01[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << ".[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "28[\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "NLOU[0xb2]R[\n]"
-16:46:31.367 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "/[0xca][0xcf]KW(H,..[0xcf]/J[0xd1]S[0xaa][0xe5][0x2][0x0][0x0][0x0][0xff][0xff][0x3][0x0])u[0x13][0x97]#[0x0][0x0][0x0][\r][\n]"
-16:46:31.367 [main] DEBUG org.apache.http.headers - http-outgoing-3 << HTTP/1.1 200 OK
-16:46:31.367 [main] DEBUG org.apache.http.headers - http-outgoing-3 << content-type: application/json
-16:46:31.367 [main] DEBUG org.apache.http.headers - http-outgoing-3 << vary: Accept-Encoding
-16:46:31.367 [main] DEBUG org.apache.http.headers - http-outgoing-3 << content-encoding: gzip
-16:46:31.367 [main] DEBUG org.apache.http.headers - http-outgoing-3 << x-cloud-trace-context: 74aea4dbb336af848b42f87e8cb2dabb
-16:46:31.367 [main] DEBUG org.apache.http.headers - http-outgoing-3 << date: Wed, 26 Nov 2025 21:46:32 GMT
-16:46:31.367 [main] DEBUG org.apache.http.headers - http-outgoing-3 << server: Google Frontend
-16:46:31.367 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Transfer-Encoding: chunked
-16:46:31.367 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
-16:46:31.368 [main] DEBUG com.intuit.karate - response time in milliseconds: 398
+17:08:08.532 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+17:08:08.532 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 3][route: {s}->https://api.demoblaze.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+17:08:08.532 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.demoblaze.com:443
+17:08:08.533 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.demoblaze.com/172.217.30.179:443
+17:08:08.533 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.demoblaze.com/172.217.30.179:443 with timeout 30000
+17:08:08.570 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
+17:08:08.571 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+17:08:08.571 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+17:08:08.767 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+17:08:08.767 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
+17:08:08.767 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+17:08:08.767 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=api.demoblaze.com
+17:08:08.767 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [api.demoblaze.com]
+17:08:08.767 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=WR3, O=Google Trust Services, C=US
+17:08:08.767 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.18.180:50525<->172.217.30.179:443
+17:08:08.767 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 30000
+17:08:08.767 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /login HTTP/1.1
+17:08:08.768 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+17:08:08.768 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+17:08:08.768 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> POST /login HTTP/1.1
+17:08:08.768 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Type: application/json; charset=UTF-8
+17:08:08.768 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Length: 48
+17:08:08.768 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Host: api.demoblaze.com
+17:08:08.768 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Connection: Keep-Alive
+17:08:08.768 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)
+17:08:08.768 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+17:08:08.768 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "POST /login HTTP/1.1[\r][\n]"
+17:08:08.768 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+17:08:08.768 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Length: 48[\r][\n]"
+17:08:08.768 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Host: api.demoblaze.com[\r][\n]"
+17:08:08.768 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+17:08:08.768 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.28)[\r][\n]"
+17:08:08.768 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:08:08.768 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "[\r][\n]"
+17:08:08.768 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "{"username":"Elizabeth","password":"1725531956"}"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "content-type: application/json[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "vary: Accept-Encoding[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "content-encoding: gzip[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "x-cloud-trace-context: 00933f99dbb563cde951e4e64f032c0d[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "date: Wed, 26 Nov 2025 22:08:10 GMT[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "server: Google Frontend[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Transfer-Encoding: chunked[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x1f][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x8b][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x8][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x4][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x3][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0x0][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "00000001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0xff][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "001[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0xff][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "33[\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[0xaa]VJ-*[0xca]/[0xf2]M-.NLOU[0xb2]R[\n]"
+17:08:08.961 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "/[0xca][0xcf]KW(H,..[0xcf]/J[0xd1]S[0xaa][0xe5][0x2][0x0][0x0][0x0][0xff][0xff][0x3][0x0])u[0x13][0x97]#[0x0][0x0][0x0][\r][\n]"
+17:08:08.961 [main] DEBUG org.apache.http.headers - http-outgoing-3 << HTTP/1.1 200 OK
+17:08:08.961 [main] DEBUG org.apache.http.headers - http-outgoing-3 << content-type: application/json
+17:08:08.961 [main] DEBUG org.apache.http.headers - http-outgoing-3 << vary: Accept-Encoding
+17:08:08.961 [main] DEBUG org.apache.http.headers - http-outgoing-3 << content-encoding: gzip
+17:08:08.961 [main] DEBUG org.apache.http.headers - http-outgoing-3 << x-cloud-trace-context: 00933f99dbb563cde951e4e64f032c0d
+17:08:08.961 [main] DEBUG org.apache.http.headers - http-outgoing-3 << date: Wed, 26 Nov 2025 22:08:10 GMT
+17:08:08.961 [main] DEBUG org.apache.http.headers - http-outgoing-3 << server: Google Frontend
+17:08:08.962 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Transfer-Encoding: chunked
+17:08:08.962 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+17:08:08.962 [main] DEBUG com.intuit.karate - response time in milliseconds: 430
 1 < 200
 1 < content-type: application/json
 1 < vary: Accept-Encoding
-1 < x-cloud-trace-context: 74aea4dbb336af848b42f87e8cb2dabb
-1 < date: Wed, 26 Nov 2025 21:46:32 GMT
+1 < x-cloud-trace-context: 00933f99dbb563cde951e4e64f032c0d
+1 < date: Wed, 26 Nov 2025 22:08:10 GMT
 1 < server: Google Frontend
 1 < Transfer-Encoding: chunked
 {"errorMessage":"Wrong password."}
 
 
-16:46:31.370 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
-16:46:31.404 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
-16:46:31.657 [main] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
+17:08:08.965 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+17:08:09.009 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+17:08:09.330 [main] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
 [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
 [THYMELEAF] * Thymeleaf version: 3.0.14.RELEASE (built 2021-12-08T00:45:29+0000)
 [THYMELEAF] * Cache Manager implementation: org.thymeleaf.cache.StandardCacheManager
@@ -879,21 +903,21 @@
 [THYMELEAF]             * [{script} {ka:scope,data-ka-scope}] [1000]: com.intuit.karate.template.KaScriptElemProcessor
 [THYMELEAF]             * [* {ka:set,data-ka-set}] [1000]: com.intuit.karate.template.KaSetElemProcessor
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
-16:46:31.658 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+17:08:09.331 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
 ---------------------------------------------------------
 feature: classpath:features/demoblaze.feature
-scenarios:  4 | passed:  4 | failed:  0 | time: 2,4591
+scenarios:  4 | passed:  4 | failed:  0 | time: 2,3811
 ---------------------------------------------------------
 
-16:46:32.103 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+17:08:09.893 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
 Karate version: 1.2.0
 ======================================================
-elapsed:   4,41 | threads:    1 | thread time: 2,46 
-features:     1 | skipped:    0 | efficiency: 0,56
+elapsed:   4,97 | threads:    1 | thread time: 2,38 
+features:     1 | skipped:    0 | efficiency: 0,48
 scenarios:    4 | passed:     4 | failed: 0
 ======================================================
-16:46:32.113 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
-16:46:32.127 [main] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
+17:08:09.908 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+17:08:09.929 [main] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
 [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
 [THYMELEAF] * Thymeleaf version: 3.0.14.RELEASE (built 2021-12-08T00:45:29+0000)
 [THYMELEAF] * Cache Manager implementation: org.thymeleaf.cache.StandardCacheManager
@@ -1278,9 +1302,9 @@ scenarios:    4 | passed:     4 | failed: 0
 [THYMELEAF]             * [{script} {ka:scope,data-ka-scope}] [1000]: com.intuit.karate.template.KaScriptElemProcessor
 [THYMELEAF]             * [* {ka:set,data-ka-set}] [1000]: com.intuit.karate.template.KaSetElemProcessor
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
-16:46:32.127 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-16:46:32.137 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
-16:46:32.149 [main] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
+17:08:09.930 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+17:08:09.946 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+17:08:09.968 [main] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
 [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
 [THYMELEAF] * Thymeleaf version: 3.0.14.RELEASE (built 2021-12-08T00:45:29+0000)
 [THYMELEAF] * Cache Manager implementation: org.thymeleaf.cache.StandardCacheManager
@@ -1665,9 +1689,9 @@ scenarios:    4 | passed:     4 | failed: 0
 [THYMELEAF]             * [{script} {ka:scope,data-ka-scope}] [1000]: com.intuit.karate.template.KaScriptElemProcessor
 [THYMELEAF]             * [* {ka:set,data-ka-set}] [1000]: com.intuit.karate.template.KaSetElemProcessor
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
-16:46:32.149 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-16:46:32.222 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
-16:46:32.235 [main] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
+17:08:09.969 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+17:08:10.025 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+17:08:10.041 [main] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
 [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
 [THYMELEAF] * Thymeleaf version: 3.0.14.RELEASE (built 2021-12-08T00:45:29+0000)
 [THYMELEAF] * Cache Manager implementation: org.thymeleaf.cache.StandardCacheManager
@@ -2052,7 +2076,7 @@ scenarios:    4 | passed:     4 | failed: 0
 [THYMELEAF]             * [{script} {ka:scope,data-ka-scope}] [1000]: com.intuit.karate.template.KaScriptElemProcessor
 [THYMELEAF]             * [* {ka:set,data-ka-set}] [1000]: com.intuit.karate.template.KaSetElemProcessor
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
-16:46:32.235 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+17:08:10.042 [main] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
 
 HTML report: (paste into browser to view) | Karate version: 1.2.0
 file:///C:/Users/ASUS/Documents/sofka/Sofka_ApiKarateDemoglaze/target/karate-reports/karate-summary.html

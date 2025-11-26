@@ -7,7 +7,7 @@ Feature: Prueba Sofka API Demoblaze
 @id:CasodePrueba1
   Scenario Outline: Crear nuevo Usuario
     Given path '/signup'
-    And request { username: '<username>', password: '<password>' }
+    And request { username: username, password: password }
     When method post
     Then status 200
 
@@ -18,7 +18,7 @@ Feature: Prueba Sofka API Demoblaze
 @id:CasodePrueba2
   Scenario Outline: Creación de usuario existente
     Given path '/signup'
-    And request { username: '<username>', password: '<password>' }
+    And request { username: username, password: password }
     When method post
     Then status 200
     And match response contains { errorMessage: 'This user already exist.' }
@@ -30,7 +30,7 @@ Feature: Prueba Sofka API Demoblaze
 @id:CasodePrueba3
   Scenario Outline: Usuario y Contraseña Correctos
     Given path '/login'
-    And request { username: '<username>', password: '<password>' }
+    And request { username: username, password: password }
     When method post
     Then status 200
 
@@ -41,7 +41,7 @@ Feature: Prueba Sofka API Demoblaze
  @id:CasodePrueba4
   Scenario Outline: usuario  y contraseña incorrecto 
     Given path '/login'
-    And request { username: '<username>', password: '<password>' }
+    And request { username: username, password: password }
     When method post
     Then status 200
     And match response contains { errorMessage: 'Wrong password.' }

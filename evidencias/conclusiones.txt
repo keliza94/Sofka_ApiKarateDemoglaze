@@ -1,0 +1,17 @@
+CONCLUSIONES DEL EJERCICIO – PRUEBAS API DEMOBLAZE
+
+Durante el desarrollo de las pruebas de los servicios de registro (signup) y autenticación (login) de la API de Demoblaze se validaron distintos escenarios con el fin de verificar el comportamiento esperado ante entradas válidas e inválidas. Los hallazgos y conclusiones son los siguientes:
+
+1. El servicio de registro permite la creación de usuarios nuevos siempre que el nombre de usuario no exista previamente en el sistema. Las pruebas confirman que la respuesta del servidor es un estado HTTP 200 acompañado del mensaje correspondiente.
+
+2. Cuando se intenta crear un usuario que ya se encuentra registrado, el servicio responde correctamente con el mensaje “This user already exist.”, lo cual demuestra que la API cuenta con un control básico para evitar duplicados.
+
+3. El servicio de autenticación (login) permite el acceso cuando se proporcionan credenciales correctas. Las pruebas verificaron que la API devuelve un estado HTTP 200 y la estructura esperada en la respuesta.
+
+4. En el caso de credenciales incorrectas, la API responde con el mensaje “Wrong password.”. El comportamiento es consistente con lo esperado para un proceso de validación de usuario, permitiendo identificar fallos de autenticación.
+
+5. La API opera con respuestas simples y mensajes claros, sin mecanismos adicionales como códigos de error distintos por caso, tokens o validaciones extendidas. Esto facilita la automatización, pero también refleja un nivel básico de seguridad y validación.
+
+6. La herramienta Karate DSL permitió estructurar los escenarios de manera clara, reutilizar elementos comunes mediante el uso de Background y ejecutar todos los casos de prueba de forma automatizada, generando reportes detallados de cada ejecución.
+
+En general, los resultados obtenidos muestran que los servicios de la API Demoblaze cumplen con la funcionalidad esperada para los escenarios probados, respondiendo de forma consistente ante entradas válidas e inválidas. La automatización permitió validar estos comportamientos de manera eficiente y reproducible.
