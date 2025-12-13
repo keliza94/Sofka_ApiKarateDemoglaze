@@ -147,4 +147,4 @@ Feature: Prueba Sofka API Demoblaze
 2. Ejecutar mvn test  
 3. Abrir reporte HTML  
 4. Revisar request/response de cada caso  
-5. Validar resultados y mensajes devueltos por la API  
+5. Validar resultados y mensajes devueltos por la API. 
